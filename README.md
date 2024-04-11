@@ -1,1 +1,2 @@
-# Practica_2_Python
+Gonzalo Ramiro Irigoyen
+Leg:21592/6
