@@ -1,7 +1,6 @@
 def max_goleador(lista_nombres,lista_goles):
-    goles_max=max(lista_goles)
-    indice=lista_goles.index(goles_max)
-    return (lista_nombres[indice],goles_max)
+    indice=lista_goles.index(max(lista_goles))
+    return (lista_nombres[indice],lista_goles[indice])
 
 
 def mas_influyente(estruc):
@@ -13,3 +12,6 @@ def mas_influyente(estruc):
             nom=estruc["Nombres"][i] 
             influencia=contador
     return nom
+
+prom_goles=lambda cant_goles: cant_goles/25
+    
